@@ -1,9 +1,9 @@
 import {ItemConteiner} from './style'
-function Itemrepo() {
+function Itemrepo({repo}) {
     return(
         <ItemConteiner>
-            <h3>Lucas</h3>
-            <p>dio/lkportal</p>
+            <h3>{repo}</h3>
+            <p>{repo}</p>
             <a href='#'>Ver Repositorio</a>
 
             <a href='#' className='remove'>Remove</a>

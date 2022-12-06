@@ -1,9 +1,9 @@
 import {InputConteiner} from'./style'
 
-function Input(){
+function Input({value,onChange}){
     return(
         <InputConteiner>
-            <input />
+            <input value={value} onChange={onChange} />
         </InputConteiner>
     )
 }
